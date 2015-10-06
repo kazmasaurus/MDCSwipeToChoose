@@ -18,6 +18,7 @@
 		313BB36A1BC446010031795C /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4C76A18F8B97100F6C4D6 /* UIColor+MDCRGB8Bit.m */; };
 		313BB36B1BC446010031795C /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4C76818F8B97100F6C4D6 /* UIView+MDCBorderedLabel.m */; };
 		313BB36C1BC446010031795C /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4C76518F8B97100F6C4D6 /* MDCViewState.m */; };
+		313BB3741BC4503C0031795C /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0633B118F23EAD009EBE62 /* MDCSwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA06339518F23C2B009EBE62 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = DA06338218F23C2B009EBE62 /* MDCGeometry.m */; };
 		DA0633B518F2C0CA009EBE62 /* MDCGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633B418F2C0CA009EBE62 /* MDCGeometryTests.m */; };
 		DA0633C918F2EB74009EBE62 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633BB18F2EB74009EBE62 /* MDCSwipeOptions.m */; };
@@ -287,6 +288,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313BB3741BC4503C0031795C /* MDCSwipeToChoose.h in Headers */,
 				313BB35E1BC445C00031795C /* SwipeToChoose.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +479,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Prefix.pch";
 				INFOPLIST_FILE = SwipeToChoose/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -505,6 +509,8 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Prefix.pch";
 				INFOPLIST_FILE = SwipeToChoose/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -658,6 +664,7 @@
 				313BB3611BC445C00031795C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA5B73AE18F2330B00BB5F8E /* Build configuration list for PBXProject "MDCSwipeToChoose" */ = {
 			isa = XCConfigurationList;
