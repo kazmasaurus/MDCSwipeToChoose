@@ -518,6 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwipeToChoose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -548,6 +549,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SwipeToChoose;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
