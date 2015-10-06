@@ -31,6 +31,7 @@
 		313BB37E1BC4513F0031795C /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA4C76918F8B97100F6C4D6 /* UIColor+MDCRGB8Bit.h */; settings = {ASSET_TAGS = (); }; };
 		313BB37F1BC451430031795C /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA4C76718F8B97100F6C4D6 /* UIView+MDCBorderedLabel.h */; settings = {ASSET_TAGS = (); }; };
 		313BB3801BC451470031795C /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA4C76418F8B97100F6C4D6 /* MDCViewState.h */; settings = {ASSET_TAGS = (); }; };
+		313BB3841BC452460031795C /* MDCSwipeToChoose-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 313BB3811BC452040031795C /* MDCSwipeToChoose-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA06339518F23C2B009EBE62 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = DA06338218F23C2B009EBE62 /* MDCGeometry.m */; };
 		DA0633B518F2C0CA009EBE62 /* MDCGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633B418F2C0CA009EBE62 /* MDCGeometryTests.m */; };
 		DA0633C918F2EB74009EBE62 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633BB18F2EB74009EBE62 /* MDCSwipeOptions.m */; };
@@ -316,6 +317,7 @@
 				313BB37B1BC4512E0031795C /* MDCSwipeResult.h in Headers */,
 				313BB37A1BC4512A0031795C /* MDCSwipeDirection.h in Headers */,
 				313BB3791BC451240031795C /* MDCSwipeToChooseViewOptions.h in Headers */,
+				313BB3841BC452460031795C /* MDCSwipeToChoose-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
