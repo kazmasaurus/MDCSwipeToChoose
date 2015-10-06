@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313BB35E1BC445C00031795C /* SwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = 313BB35D1BC445C00031795C /* SwipeToChoose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		313BB3631BC446010031795C /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633C818F2EB74009EBE62 /* UIView+MDCSwipeToChoose.m */; };
+		313BB3641BC446010031795C /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633C618F2EB74009EBE62 /* MDCSwipeToChooseView.m */; };
+		313BB3651BC446010031795C /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633BB18F2EB74009EBE62 /* MDCSwipeOptions.m */; };
+		313BB3661BC446010031795C /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633BD18F2EB74009EBE62 /* MDCSwipeToChooseViewOptions.m */; };
+		313BB3671BC446010031795C /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633C018F2EB74009EBE62 /* MDCSwipeResult.m */; };
+		313BB3681BC446010031795C /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633C318F2EB74009EBE62 /* MDCPanState.m */; };
+		313BB3691BC446010031795C /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = DA06338218F23C2B009EBE62 /* MDCGeometry.m */; };
+		313BB36A1BC446010031795C /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4C76A18F8B97100F6C4D6 /* UIColor+MDCRGB8Bit.m */; };
+		313BB36B1BC446010031795C /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4C76818F8B97100F6C4D6 /* UIView+MDCBorderedLabel.m */; };
+		313BB36C1BC446010031795C /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA4C76518F8B97100F6C4D6 /* MDCViewState.m */; };
 		DA06339518F23C2B009EBE62 /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = DA06338218F23C2B009EBE62 /* MDCGeometry.m */; };
 		DA0633B518F2C0CA009EBE62 /* MDCGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633B418F2C0CA009EBE62 /* MDCGeometryTests.m */; };
 		DA0633C918F2EB74009EBE62 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0633BB18F2EB74009EBE62 /* MDCSwipeOptions.m */; };
@@ -49,6 +60,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		313BB35B1BC445C00031795C /* SwipeToChoose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeToChoose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		313BB35D1BC445C00031795C /* SwipeToChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeToChoose.h; sourceTree = "<group>"; };
+		313BB35F1BC445C00031795C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA06338118F23C2B009EBE62 /* MDCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCGeometry.h; sourceTree = "<group>"; };
 		DA06338218F23C2B009EBE62 /* MDCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCGeometry.m; sourceTree = "<group>"; };
 		DA0633B118F23EAD009EBE62 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChoose.h; sourceTree = "<group>"; };
@@ -84,6 +98,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		313BB3571BC445C00031795C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA5B73B018F2330B00BB5F8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,6 +127,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313BB35C1BC445C00031795C /* SwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				313BB35D1BC445C00031795C /* SwipeToChoose.h */,
+				313BB35F1BC445C00031795C /* Info.plist */,
+			);
+			path = SwipeToChoose;
+			sourceTree = "<group>";
+		};
 		DA06337B18F23C2B009EBE62 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +200,7 @@
 			children = (
 				DA5B73B818F2330B00BB5F8E /* MDCSwipeToChoose */,
 				DA5B73CC18F2330B00BB5F8E /* MDCSwipeToChooseTests */,
+				313BB35C1BC445C00031795C /* SwipeToChoose */,
 				DA5B73B518F2330B00BB5F8E /* Frameworks */,
 				DA5B73B418F2330B00BB5F8E /* Products */,
 			);
@@ -180,6 +211,7 @@
 			children = (
 				DA5B73B318F2330B00BB5F8E /* libMDCSwipeToChoose.a */,
 				DA5B73C318F2330B00BB5F8E /* MDCSwipeToChooseTests.xctest */,
+				313BB35B1BC445C00031795C /* SwipeToChoose.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,7 +282,36 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		313BB3581BC445C00031795C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313BB35E1BC445C00031795C /* SwipeToChoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		313BB35A1BC445C00031795C /* SwipeToChoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 313BB3621BC445C00031795C /* Build configuration list for PBXNativeTarget "SwipeToChoose" */;
+			buildPhases = (
+				313BB3561BC445C00031795C /* Sources */,
+				313BB3571BC445C00031795C /* Frameworks */,
+				313BB3581BC445C00031795C /* Headers */,
+				313BB3591BC445C00031795C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeToChoose;
+			productName = SwipeToChoose;
+			productReference = 313BB35B1BC445C00031795C /* SwipeToChoose.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		DA5B73B218F2330B00BB5F8E /* MDCSwipeToChoose */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA5B73D618F2330B00BB5F8E /* Build configuration list for PBXNativeTarget "MDCSwipeToChoose" */;
@@ -294,6 +355,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = modocache;
+				TargetAttributes = {
+					313BB35A1BC445C00031795C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
 			};
 			buildConfigurationList = DA5B73AE18F2330B00BB5F8E /* Build configuration list for PBXProject "MDCSwipeToChoose" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -307,6 +373,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				313BB35A1BC445C00031795C /* SwipeToChoose */,
 				DA5B73B218F2330B00BB5F8E /* MDCSwipeToChoose */,
 				DA5B73C218F2330B00BB5F8E /* MDCSwipeToChooseTests */,
 			);
@@ -314,6 +381,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		313BB3591BC445C00031795C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA5B73C118F2330B00BB5F8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,6 +399,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		313BB3561BC445C00031795C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313BB3631BC446010031795C /* UIView+MDCSwipeToChoose.m in Sources */,
+				313BB3641BC446010031795C /* MDCSwipeToChooseView.m in Sources */,
+				313BB3651BC446010031795C /* MDCSwipeOptions.m in Sources */,
+				313BB3661BC446010031795C /* MDCSwipeToChooseViewOptions.m in Sources */,
+				313BB3671BC446010031795C /* MDCSwipeResult.m in Sources */,
+				313BB3681BC446010031795C /* MDCPanState.m in Sources */,
+				313BB3691BC446010031795C /* MDCGeometry.m in Sources */,
+				313BB36A1BC446010031795C /* UIColor+MDCRGB8Bit.m in Sources */,
+				313BB36B1BC446010031795C /* UIView+MDCBorderedLabel.m in Sources */,
+				313BB36C1BC446010031795C /* MDCViewState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA5B73AF18F2330B00BB5F8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +463,63 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		313BB3601BC445C00031795C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwipeToChoose/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwipeToChoose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		313BB3611BC445C00031795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = SwipeToChoose/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwipeToChoose;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DA5B73D418F2330B00BB5F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -503,6 +651,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		313BB3621BC445C00031795C /* Build configuration list for PBXNativeTarget "SwipeToChoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				313BB3601BC445C00031795C /* Debug */,
+				313BB3611BC445C00031795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DA5B73AE18F2330B00BB5F8E /* Build configuration list for PBXProject "MDCSwipeToChoose" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
