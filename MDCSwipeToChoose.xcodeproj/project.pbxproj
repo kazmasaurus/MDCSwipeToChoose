@@ -76,6 +76,7 @@
 		313BB35B1BC445C00031795C /* SwipeToChoose.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwipeToChoose.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		313BB35D1BC445C00031795C /* SwipeToChoose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeToChoose.h; sourceTree = "<group>"; };
 		313BB35F1BC445C00031795C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		313BB3811BC452040031795C /* MDCSwipeToChoose-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDCSwipeToChoose-Bridging-Header.h"; sourceTree = "<group>"; };
 		DA06338118F23C2B009EBE62 /* MDCGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCGeometry.h; sourceTree = "<group>"; };
 		DA06338218F23C2B009EBE62 /* MDCGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCGeometry.m; sourceTree = "<group>"; };
 		DA0633B118F23EAD009EBE62 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCSwipeToChoose.h; sourceTree = "<group>"; };
@@ -245,6 +246,7 @@
 				DA06338D18F23C2B009EBE62 /* Public */,
 				DA06337B18F23C2B009EBE62 /* Internal */,
 				DA5B73B918F2330B00BB5F8E /* Supporting Files */,
+				313BB3811BC452040031795C /* MDCSwipeToChoose-Bridging-Header.h */,
 			);
 			path = MDCSwipeToChoose;
 			sourceTree = "<group>";
@@ -379,6 +381,7 @@
 		DA5B73AB18F2330B00BB5F8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = modocache;
 				TargetAttributes = {
@@ -621,24 +624,31 @@
 		DA5B73D718F2330B00BB5F8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DSTROOT = /tmp/MDCSwipeToChoose.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Prefix.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		DA5B73D818F2330B00BB5F8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DSTROOT = /tmp/MDCSwipeToChoose.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Prefix.pch";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MDCSwipeToChoose/MDCSwipeToChoose-Bridging-Header.h";
 			};
 			name = Release;
 		};
